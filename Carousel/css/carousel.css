@@ -1,0 +1,65 @@
+/* 轮播图样式 */
+*{margin:0;padding:0}
+#box{
+  width:1000px;
+  margin:0 auto;
+}
+#carousel{
+  width:1000px;
+  overflow: hidden;
+  position: relative;
+}
+/* 图片样式 */
+#ul-imgs{
+  list-style:none;
+}
+#ul-imgs.transition{
+  transition: all .5s linear;
+}
+#ul-imgs>li{
+  width:1000px;
+  float:left;
+}
+#ul-imgs img{
+  width:1000px;
+}
+/* 下方小圆点样式 */
+#ul-idxs{
+  width:100px;
+  margin:0 auto;
+  position: absolute;
+  list-style:none;
+  bottom:25px;
+  left:50%;
+  margin-left:-50px;
+}
+#ul-idxs>li{
+  float:left;
+  width:10px;
+  height:10px;
+  background-color:#fff;
+  border-radius:5px;
+  margin:0 5px;
+  cursor: pointer;
+}
+#ul-idxs>li.active{
+  background-color:#10a5de
+}
+/* 左右按钮样式 */
+#before,#after{
+  width:60px;
+  height:100%;
+  position: absolute;
+  top:0;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+#before{
+  left:20px;
+  background-image: url("../img/left.png")
+}
+#after{
+  right:20px;
+  background-image: url("../img/right.png")
+}
