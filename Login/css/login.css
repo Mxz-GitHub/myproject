@@ -1,0 +1,121 @@
+/*总的页面样式*/
+*{margin:0;padding:0}
+#login{
+  border:5px solid #39a6eb;
+  width:400px;
+  height:400px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-200px 0 0 -200px;
+}
+/*头部登录选择*/
+ .ord{
+  float:left;
+  background-color:#e1f2fc;
+}
+ .ord .ord_text{
+  font-size:28px;
+  font-weight:bold;
+  margin:10px 37px 15px 37px;
+}
+ .two{
+  float:right;
+  background-color:#89caf4;
+}
+ .two .two_text{
+  font-size:28px;
+  font-weight:bold;
+  margin:10px 37px 15px 37px;
+}
+/*普通登录*/
+#login_ord{
+  display:block;
+  background-color: #e1f2fc;
+  clear: both;
+  overflow:hidden;
+}
+#login_ord>div{
+  text-align: center;
+}
+/*输入框样式*/
+#user{
+  width:270px;
+  height:35px;
+  border:1px solid #9a9a9a;
+  margin:15px 0 15px 0;
+  background-image:url(../img/denglu.png);
+  background-repeat:no-repeat;
+  background-position:2px;
+  padding-left:45px;
+  font-size: 15px;
+  outline:none;
+}
+#upwd{
+  width:270px;
+  height:35px;
+  border:1px solid #9a9a9a;
+  margin:15px 0 15px 0;
+  background-image:url(../img/denglumima.png);
+  background-repeat:no-repeat;
+  background-position:2px;
+  padding-left:45px;
+  font-size: 15px;
+  outline:none;
+}
+/*检查按钮*/
+#check{
+  width:317px;
+  height:39px;
+  border-radius:20px;
+  border:1px solid #9a9a9a;
+  background-color: #e1f2fc;
+  outline:none;
+  font-size:15px;
+  color:#9a9a9a;
+  margin:5px 0 15px 0;
+}
+/*登录按钮*/
+#btn{
+  width:317px;
+  height:39px;
+  outline:none;
+  background-color: #79b1d4;
+  border:1px solid #39a6eb;
+  font-size:20px;
+  color:#fff;
+  margin:15px 0 15px 0;
+}
+/*二维码登录*/
+#login_two{
+  display:none;
+  background-color: #e1f2fc;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+}
+#two_title{
+  font-size:15px;
+  margin-top:20px;
+}
+#two_title a{
+  font-weight: bold;
+  color:#4e6ba7;
+  text-decoration: none;
+}
+/* 二维码 */
+#img{
+  width:180px;
+  height:180px;
+  margin:23px 0 15px 0;
+}
+/*下方点击跳转*/
+#bottom_text{
+  font-size: 10px;
+  margin:44px 0 16px 0;
+}
+#bottom_text>a{
+  color:#536d90;
+  text-decoration:none;
+  margin:0 5px 0 5px;
+}

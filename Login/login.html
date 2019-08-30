@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录页面</title>
+  <link rel="stylesheet" href="./css/login.css">
+  
+</head>
+<body>
+  <div id="login">
+    <!-- 头部选择 -->
+    <div class="ord">
+      <p class="ord_text">普通登录</p>
+    </div>
+    <div class="two">
+      <p class="two_text">二维码登录</p>
+    </div>
+
+     <!-- 普通登录 -->
+      <div id="login_ord">
+        <div>
+           <!--用户输入界面-->
+          <input id="user" type="text" placeholder="邮箱"><br>
+          <input id="upwd" type="password" placeholder="密码"><br>
+          <button id="check">&gt&gt&gt请依次点击“敏”“亨”“昔”完成验证&gt&gt&gt</button><br>
+          <button id="btn">登录</button><br>
+        </div>
+        <!--下方点击跳转-->
+        <div id="bottom_text">
+          <a href="javascript:;">忘记密码？</a>
+          <span> | </span>
+          <a href="javascript:;">注册</a>
+          <span> | </span>
+          <a href="javascript:;">关于网易邮箱账号</a>
+        </div>
+      </div>
+
+
+      <!--二维码登录-->
+      <div id="login_two">
+        <p id="two_title">使用<a href="javascript:;">&nbsp网易账号管家&nbsp</a>或<a href="javascript:;">&nbsp邮箱大师&nbsp</a>扫一扫快速登录</p>
+        <img id="img" src="./img/erweima.png" alt="">
+        <div id="bottom_text">
+          <a href="javascript:;">忘记密码？</a>
+          <span>|</span>
+          <a href="javascript:;">注册</a>
+          <span>|</span>
+          <a href="javascript:;">关于网易邮箱账号</a>
+        </div>
+      </div>
+
+  </div>
+  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./js/sha1.js"></script>
+  <script type="text/javascript" src="./js/login.js"></script>
+</body>
+</html>
