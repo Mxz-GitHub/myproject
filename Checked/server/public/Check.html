@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/Check.css">
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="./js/Check.js"></script>
+</head>
+<body>
+  <div id="box">
+    <div class="bac"></div>
+    <diV class="check">
+      <diV class="check-img">
+        <div calss="img">
+          <div class="onimg">
+            <img src="./img/w.png" alt="">
+          </div>
+          <img class="onimg-pos" src="./img/b.png" alt="">
+        </div>
+        <div class="push">
+          <div class="refresh">
+            <img class="refresh-img" src="./img/refresh.png" alt="">
+            <span class="refresh-text">验证不通过</span>
+            <span class="refresh-time"></span>
+          </div>
+        </div>
+      </diV>
+      <diV class="btn">
+        <div class="btn-code"></div>
+        <span>按住滑块，拖动完成拼图</span>
+      </diV>
+    </diV>
+  </div>
+  <script>
+    $('#box').imgcode();
+  </script>
+</body>
+</html>

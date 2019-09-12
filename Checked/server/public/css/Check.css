@@ -1,0 +1,88 @@
+*{margin:0;padding:0}
+.bac{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:99;
+  width:100%;
+  background-color:#a8a8a7;
+}
+/* 滑动图片样式 */
+.check{
+  position:absolute;
+  top:100px;
+  left:50%;
+  z-index:100;
+  width:298px;
+  margin-left:-180px;
+  background-color:#fff;
+  background-image: url(../img/8.png);
+  background-repeat: no-repeat;
+  user-select:none; /* 设置是否允许用户选中文本 */
+}
+.check-img{
+  margin:5px;
+  padding:5px;
+}
+.check-img img{
+  display:block;
+}
+.onimg{
+  position: absolute;
+  top:10px;
+  left:10px;
+  z-index:10;
+}
+.onimg-pos{
+  margin-left:0;
+}
+/* 图片下方刷新，验证 */
+.push{
+  height:30px;
+}
+.refresh{
+  display:flex;
+  cursor:pointer;
+  /* background-image:url(../img/refresh.png);
+  background-repeat:no-repeat; */
+}
+.refresh-text,.refresh-time{
+  line-height:25px;
+  margin-left:20px;
+  font-size:10px;
+}
+.refresh-text{
+  display:none;
+  color:#f00;
+}
+.refresh-time{
+  display:none;
+  color:#f00;
+}
+/* 下方滑动样式 */
+.btn{
+  position: relative;
+  height:30px;
+  text-align:center;
+  color:#e1e1e1;
+  margin:10px;
+  box-sizing: border-box;
+  border:1px solid #e1e1e1;
+  border-radius:15px;
+}
+.btn-code{
+  position:absolute;
+  top:-7px;
+  left:10px;
+  cursor: pointer;
+  width:40px;
+  height:40px;
+  border:1px solid #e1e1e1;
+  background-color:#fff;
+  border-radius:50%;
+}
+.btn-code .active{
+  box-shadow:#666 0 0 8px;
+}
