@@ -25,9 +25,9 @@ $.fn.imgcode=function(options){
 				var start=new Date()
 				onTimes=start.getTime();
 			}
-		});
+		})
 		//鼠标点击松手
-		$(document).mouseup(function(){
+		.mouseup(function(){
 			var lastX=$('.onimg').offset().left-dX;
 			isDown=false;
 			$moveBtn.remove('active');
